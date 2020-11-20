@@ -1,0 +1,28 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+    /*Estou definindo que quando colocar uma largura
+    como exemplo 300px mais um padding de 80px o css faça o calculo
+    utilizando o valor de uma borda a outr, ou seja, quando faço assim 
+    o css não soma mais 80 ficando com 380 e sim faz o calculo para usar 80 dos 300*/
+}
+body {
+    height: 100vh;
+    color: white;
+    background: #ebf2f5;
+}
+:root {
+    /*Definindo o tamanho do root da aplicação, tamanho que será usado pelo em ou rem*/
+    font-size: 62.5%;
+}
+body, input, button, textarea {
+    /*
+    Outra forma de fazer as marcações: 
+    font-weight: 400; /*font-weight: Peso da fonte;
+    font-size: 1.8em;
+    line-height: 1; /*line-height: Altura da linha;
+    font-family: "Nunito", Arial, sans-serif;  
+    */
+    font: 400 1.8rem/1 'Nunito', Arial, sans-serif;  
+}
